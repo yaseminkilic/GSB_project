@@ -1,0 +1,38 @@
+## Visual Studio & .NET
+.vs/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.nupkg
+*.snupkg
+
+## Test & Coverage Sonuçları
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+coverage*.json
+coverage*.xml
+coverage*.info
+
+## Rider & VS Code
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Kullanıcı Gizli Anahtarları & Yerel Ayarlar
+secrets.json
+appsettings.Local.json
+*.db
+*.mdf
+*.ldf
+
+## İşletim Sistemi Dosyaları
+.DS_Store
+Thumbs.db

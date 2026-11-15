@@ -1,0 +1,12 @@
+﻿@GSB_project.WebApi_HostAddress = https://localhost:7161
+# API_TOKEN must be supplied in the HTTP client's local environment, never committed.
+
+### Reader, Manager or Admin
+GET {{GSB_project.WebApi_HostAddress}}/api/events/1
+Authorization: Bearer {{$processEnv API_TOKEN}}
+Accept: application/json
+
+### Manager or Admin
+GET {{GSB_project.WebApi_HostAddress}}/api/participants/1
+Authorization: Bearer {{$processEnv API_TOKEN}}
+Accept: application/json

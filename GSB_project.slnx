@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/GSB_project/" />
+  <Folder Name="/GSB_project/src/" />
+  <Folder Name="/GSB_project/tests/">
+    <Project Path="GSB_project/tests/GSB_project.PerformanceHost/GSB_project.PerformanceHost.csproj" />
+    <Project Path="GSB_project/tests/GSB_project.Tests/GSB_project.Tests.csproj" />
+  </Folder>
+  <Project Path="GSB_project/src/GSB_project.Application/GSB_project.Application.csproj" />
+  <Project Path="GSB_project/src/GSB_project.Domain/GSB_project.Domain.csproj" />
+  <Project Path="GSB_project/src/GSB_project.Infrastructure/GSB_project.Infrastructure.csproj" />
+  <Project Path="GSB_project/src/GSB_project.WebApi/GSB_project.WebApi.csproj" />
+</Solution>
